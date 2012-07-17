@@ -1,0 +1,82 @@
+/* line 6, ../sass/toggle.scss */
+#toogle {
+  border-style: solid;
+  border-width: 1px;
+  border-left-color: #d6d6d6;
+  border-right-color: #d9d9d9;
+  border-top-color: #d3d3d3;
+  border-bottom-color: #ededed;
+  width: 75px;
+  padding: 5px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e2e2e2), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#e2e2e2, #ffffff);
+  background-image: -moz-linear-gradient(#e2e2e2, #ffffff);
+  background-image: -o-linear-gradient(#e2e2e2, #ffffff);
+  background-image: linear-gradient(#e2e2e2, #ffffff);
+  border-radius: 5px; }
+
+/* line 29, ../sass/toggle.scss */
+.switch-base {
+  position: relative;
+  height: 21px;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: #6b5d88;
+  border-right-color: #736099;
+  border-bottom-color: #492691;
+  border-left-color: #736099;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9b85ca), color-stop(100%, #492691));
+  background-image: -webkit-linear-gradient(#9b85ca, #492691);
+  background-image: -moz-linear-gradient(#9b85ca, #492691);
+  background-image: -o-linear-gradient(#9b85ca, #492691);
+  background-image: linear-gradient(#9b85ca, #492691);
+  border-radius: 5px; }
+
+/* line 58, ../sass/toggle.scss */
+.switcher {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #eaeaea));
+  background-image: -webkit-linear-gradient(#ffffff, #eaeaea);
+  background-image: -moz-linear-gradient(#ffffff, #eaeaea);
+  background-image: -o-linear-gradient(#ffffff, #eaeaea);
+  background-image: linear-gradient(#ffffff, #eaeaea);
+  width: 20px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border-top-color: #d7d7d7;
+  border-bottom-color: #a9a9a9;
+  border-left-color: #c4c4c4;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  -webkit-box-shadow: #a9a9a9 0px 1px 1px;
+  -moz-box-shadow: #a9a9a9 0px 1px 1px;
+  box-shadow: #a9a9a9 0px 1px 1px; }
+
+/* line 85, ../sass/toggle.scss */
+.switcher:before {
+  background: red;
+  width: 13px;
+  height: 13px;
+  content: " ";
+  background: #FFF;
+  position: absolute;
+  border-radius: 10px;
+  left: 7px;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: #d0d0d0;
+  border-bottom-color: #d0d0d0;
+  border-left-color: #e2e2e2;
+  border-right-color: #d6d6d6; }
+
+/* line 117, ../sass/toggle.scss */
+.status {
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFF;
+  position: absolute;
+  left: 45px;
+  top: 4px;
+  text-shadow: black 0px 0px 2px; }

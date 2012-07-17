@@ -1,0 +1,130 @@
+@import "compass";
+@import "compass/css3";
+
+$defaultRadius: 5px;
+
+#toogle{	
+	border:{
+		style: solid;
+		width: 1px;
+		
+		left:{
+			color: #d6d6d6;}
+			
+		right:{
+			color: #d9d9d9;}
+			
+		top:{
+			color: #d3d3d3;}
+			
+		bottom:{
+			color: #ededed;}
+	}
+	width: 75px;
+	padding: 5px;
+
+	@include background-image(linear-gradient(#e2e2e2, #FFF));
+	border-radius: $defaultRadius;}
+
+.switch-base{
+	position: relative;
+	height: 21px;
+
+	border:{
+		style: solid;
+		width: 1px;
+
+		top:{
+			color: #6b5d88;
+		}
+
+		right:{
+			color: #736099;
+		}
+
+		bottom:{
+			color: #492691;
+		}
+
+		left:{
+			color: #736099;
+		}
+	}
+
+	@include background-image(linear-gradient(#9b85ca, #492691));
+	border-radius: $defaultRadius;
+}
+
+.switcher{
+	@include background-image(linear-gradient(#ffffff, #eaeaea));
+	width: 20px;
+	height: 15px;
+	padding: 5px;
+	border-radius: $defaultRadius;
+	border:{
+		top:{
+			color: #d7d7d7;
+		}
+
+		bottom:{
+			color: #a9a9a9;
+		}
+
+		left:{
+			color: #c4c4c4;
+		}
+	}
+
+	position: absolute;
+	top: -2px;
+	left: -2px;
+
+	@include box-shadow(#a9a9a9 0px 1px 1px);
+}
+
+.switcher:before{
+	background: red;
+	width: 13px;
+	height: 13px;
+	content: " ";
+	background: #FFF;
+	position: absolute;
+	border-radius: 10px;
+	left: 7px;
+	border:{
+		style: solid;
+		width: 1px;
+
+		top:{
+			color: #d0d0d0;
+		}
+
+		bottom:{
+			color: #d0d0d0;
+		}
+
+		left:{
+			color: #e2e2e2;
+		}
+
+		right:{
+			color: #d6d6d6;
+		}
+	}
+}
+
+
+.status{
+	font:{
+		size: 13px;
+		family: Arial;
+	}
+
+	font-weight: bold;
+	color: #FFF;
+	position: absolute;
+	left: 45px;
+	top: 4px;
+
+	@include text-shadow(#000 0px 0px 2px);	
+}
